@@ -1,0 +1,57 @@
+#header {
+    padding-top: 3rem;
+    text-align: center;
+    display: block;
+
+}
+
+#content,article, footer {
+    padding-left: 3rem;
+    text-align: left;
+    overflow: auto;
+    text-wrap: flex;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    border: 0.3rem solid rgb(95, 42, 35);
+    border-radius: 0.25rem;
+    padding: 0.7rem;
+    width: fit-content;
+    background-color: rgb(95, 42, 35);
+    color: #fdfdfd;
+}
+
+#image {
+    float: left; 
+    padding-right: 1rem;
+}
+#button {
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    background-color: rgb(0, 0, 0);
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    color: #fdfdfd;
+}
+
+#button:hover {
+    color: #fff701;
+}
+
+h2:hover{
+    text-decoration-line: underline;
+}
+
+
+
+body {
+    padding-right: 3rem;
+    background-color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
