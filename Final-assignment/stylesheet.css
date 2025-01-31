@@ -1,0 +1,25 @@
+.icon-menu{
+    width: 30px;
+    height: 4px;
+    background-color: black;
+    position:relative;
+    display: inline-block;
+}
+
+.icon-menu::before,
+.icon-menu::after{
+    content: "";
+    width: 30px;
+    height: 4px;
+    background-color: black;
+    position:absolute;
+    left:0;
+}
+
+.icon-menu::before{
+    top: -10px;
+}
+
+.icon-menu::after{
+    top: 10px;
+}
