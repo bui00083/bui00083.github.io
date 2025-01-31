@@ -50,8 +50,9 @@ h2 {
 }
 
 h1:hover{
-    text-decoration: brown;
+    color:rgb(95, 42, 35);
 }
+
 h2:hover{
     text-decoration-line: underline;
 }
