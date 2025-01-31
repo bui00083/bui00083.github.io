@@ -49,6 +49,9 @@ h2 {
     color: #fff701;
 }
 
+h1:hover{
+    text-decoration: brown;
+}
 h2:hover{
     text-decoration-line: underline;
 }
