@@ -72,10 +72,15 @@ body {
     margin-left: 10rem;
 }
 
+dt {
+    font-size:x-large;
+    font-weight: 700;
+}
+
 #menu {
     display: block;
     background-color: #532d31;
-    width: 9rem;
+    width: 9.5rem;
     height: 100vh;
     position: fixed;
     top: 0;
@@ -95,6 +100,7 @@ body {
     color: #dfdcdc;
     display: flex;
     font-size: 1.25rem;
+    font-weight: 500;
 }
 
 #menu a:hover {
