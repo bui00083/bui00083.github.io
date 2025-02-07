@@ -72,7 +72,7 @@ body {
     margin-left: 10rem;
 }
 
-dt {
+dt p{
     font-size:x-large;
     font-weight: 700;
 }
