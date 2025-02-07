@@ -1,11 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 2rem;
+}
+
 #header {
+    margin-left: 5rem;
     padding-top: 3rem;
     text-align: center;
     display: block;
-
 }
 
-#content,article, footer {
+.mainImg {
+    height: 37.5rem;
+    width: 37.5rem;
+}
+
+#content,
+article,
+footer {
+    margin-left: 5rem;
     padding-left: 3rem;
     text-align: left;
     overflow: auto;
@@ -13,48 +29,38 @@
 }
 
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Roboto', serif;
 }
 
 h2 {
-    border: 0.3rem solid rgb(95, 42, 35);
-    border-radius: 0.25rem;
     padding: 0.7rem;
     width: fit-content;
-    background-color: rgb(95, 42, 35);
-    color: #fdfdfd;
+    text-decoration: none;
 }
 
 #image {
-    float: left; 
+    float: left;
     padding-right: 1rem;
 }
+
 #button {
     display: inline-block;
     margin-left: 3rem;
     margin-bottom: 2rem;
-    background-color: rgb(0, 0, 0);
+    background-color: #532d31;
+    box-shadow: 0rem 0.25rem 0.375rem rgba(0, 0, 0, 0.1);
     padding: 10px 20px;
     font-size: 1rem;
     border: none;
     border-radius: 0.25rem;
     color: #fdfdfd;
     text-decoration-line: none;
-
 }
-
-
 
 #button:hover {
-    color: #fff701;
-}
-
-h1:hover{
-    color:rgb(95, 42, 35);
-}
-
-h2:hover{
-    text-decoration-line: underline;
+    background-color: #49272b;
+    color: #e7e2e2;
+    box-shadow: 0rem 0.375rem 0.625rem rgba(0, 0, 0, 0.15);
 }
 
 
@@ -62,5 +68,53 @@ h2:hover{
 body {
     padding-right: 3rem;
     background-color: #ffffff;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Roboto", sans-serif;
+    margin-left: 10rem;
+}
+
+#menu {
+    display: block;
+    background-color: #532d31;
+    width: 9rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 3rem;
+}
+
+#list {
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 5rem;
+}
+
+#menu a {
+    text-decoration-line: none;
+    padding: 1rem 3rem 1rem;
+    color: #dfdcdc;
+    display: flex;
+    font-size: 1.25rem;
+}
+
+#menu a:hover {
+    color: #f0f0f0;
+    box-shadow: 0.625rem 0.625rem 0.625rem rgba(0, 0, 0, 0.15);
+}
+
+/* ----FOR NOTES---- */
+
+caption {
+    font-weight: 700;
+    padding-bottom: .5rem;
+}
+
+table, th, td {
+    border: 0.0625rem solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+    padding: 0 0.5rem;
 }

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Notes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header id="header">
+        <h1>HTML Tags</h1>
+        <nav id="menu">
+            <a href="/html-assignment/index.html">Home</a>
+            <a href="/html-assignment/notes.html">Notes</a>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <p>
+                <em>This is some basic <abbr title="Hypertext Markup Language">HTML</abbr> that I have learned</em>
+            <dl id="list">
+                <dt>
+                    <h2>Paragraph</h2>
+                </dt>
+                <dd>Use &lt;p&gt;&lt;/p&gt; to create a paragraph of text in HTML. The browser will add a space before
+                    and after the content of the paragraph. For example:
+                    <p>This is a paragraph. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit velit
+                        corporis reiciendis impedit earum, dolore provident aut numquam doloremque quos saepe, assumenda
+                        deserunt quisquam. Incidunt pariatur voluptatibus quidem natus omnis!</p>
+                </dd>
+
+                <dt>
+                    <h2 class="h2Notes">Division</h2>
+                </dt>
+                <dd>Use &lt;div&gt;&lt;/div&gt;; to create a division in HTML. Division is a container element that
+                    separates a web page into sections For example:
+                    <div>
+                        This is a division, you can put anything in a division.
+                    </div>
+                </dd>
+                <dt>
+                    <h2>Highlighting Text</h2>
+                </dt>
+                <dd>Use &lt;mark&gt;&lt;/mark&gt; to <mark>highlight the text</mark> for reference.</dd>
+
+                <dt>
+                    <h2>Form Tag</h2>
+                </dt>
+                <dd>Use &lt;form&gt;&lt;/form&gt;to create a form that allow user to input different type of data. Each
+                    input must has its label. Add an id attribute to the input which matches with the for attribute of
+                    label, to connect an input with the label
+                    It is important to use unique value for the id attribute of each input in one form. For example:
+                    <form action="notes" method="post">
+                        <label for="Name">Name</label>
+                        <input id="Name" type="text" name="fullname" placeholder="John Smith" required>
+                    </form>
+                </dd>
+                <dt>
+                    <h2>Table</h2>
+                </dt>
+                <dd>Use &lt;table&gt;&lt;/table&gt; to create a table in HTML. Every table can have a caption, this
+                    summarizes the data in the table. The caption can be added to the table by using the
+                    &lt;caption&gt;&lt;/caption&gt;.
+                    <p>
+
+                    <table>
+                        <caption>Student Information</caption>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Level</th>
+                                <th>Section</th>
+                                <th>Student Number</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Bob</td>
+                                <td>Level 1</td>
+                                <td>010</td>
+                                <td>040123456</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </p>
+                </dd>
+
+            </dl>
+            </p>
+        </div>
+    </main>
+</body>
+
+</html>
