@@ -1,5 +1,9 @@
-/*Custom CSS*/
-#page{
+/* ======================== */
+/* Custom CSS for the Page  */
+/* ======================== */
+
+/* ===== PAGE CONTAINER ===== */
+#page {
     margin: 0 13.7rem 0.5rem 13.7rem;
     background-color: #d4e9e7;
     padding: 0 0.7rem;
@@ -7,17 +11,18 @@
     border: none;
 }
 
+/* ===== GLOBAL STYLES ===== */
 body {
     background-color: #aad4cf;
-    font-family: Arial;
-    
+    font-family: Arial, sans-serif; 
 }
 
+/* ===== HEADER SECTION ===== */
 #header {
     margin: 0 13.7rem;
 }
 
-header{
+header {
     background-image: url("../image/lone-starfish-wide.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,73 +30,81 @@ header{
     display: flex;
     height: 22.4rem;
     font-size: 34px;
-    justify-content: center;     
-
-    h1 {
-        font-size:68px;
-        margin: 0;
-        padding-top: 13.2rem;
-        color: white;
-        font-weight:500;
-
-    }
+    justify-content: center;
 }
 
-#navigation{
+/* Header Title */
+header h1 {
+    font-size: 68px;
+    margin: 0;
+    padding-top: 13.2rem;
+    color: white;
+    font-weight: 500;
+}
+
+/* ===== NAVIGATION MENU ===== */
+#navigation {
     display: flex;
     flex-direction: row;
-    font-size:28px;
+    font-size: 28px;
     gap: 2rem;
     padding: 0.2rem;
     margin-bottom: 2rem;
-
-    div{
-        text-transform: uppercase;
-        font-weight: 500;
-        flex: 1;
-        text-align: center;
-        padding: 0.6rem;
-        border-right: 0.08rem solid rgb(47, 47, 47);
-    }
-    div:last-child{
-        border-right:none;
-    }
 }
 
+/* Navigation Items */
+#navigation div {
+    text-transform: uppercase;
+    font-weight: 500;
+    flex: 1;
+    text-align: center;
+    padding: 0.6rem;
+    border-right: 0.08rem solid rgb(47, 47, 47);
+}
 
-h2{
+/* Remove border from last navigation item */
+#navigation div:last-child {
+    border-right: none;
+}
+
+/* ===== HEADINGS ===== */
+h2 {
     font-size: 37px;
     font-weight: 500;
 }
 
-#lone-starfish{
-    height:17rem;
+h3 {
+    font-size: 28px;
+    font-weight: 500;
+    padding: 0.625rem 0;
+}
+
+/* ===== IMAGE STYLES ===== */
+#lone-starfish {
+    height: 17rem;
     float: left;
     margin: 1rem 1.2rem 2rem 0;
 }
 
-#paragraph{
+/* ===== PARAGRAPH STYLES ===== */
+#paragraph {
     padding: 1rem 0.2rem 1rem 0;
     font-size: 17px;
     font-weight: 300;
     line-height: 1.4;
 }
 
-h3{
-    font-size: 28px;
-    font-weight: 500;
-    padding: 0.625rem 0;
-}
-
-ul{
+/* list style */
+ul {
     padding: 0.625rem 1rem;
 }
 
-ul li{
+ul li {
     list-style: disc;
 }
 
-#form{
+/* form container */
+#form {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -99,44 +112,48 @@ ul li{
     padding: 2rem 1rem 1rem 1rem;
 }
 
-.form-group{
+/* Form Group */
+.form-group {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
 
-.form-group input{
+/* Form Inputs */
+.form-group input {
     padding: 0.3rem;
 }
 
-.form-group #message{
+/* Textarea */
+.form-group #message {
     padding: 1.8rem;
 }
 
-
-
-footer{
+/* ===== FOOTER ===== */
+footer {
     padding-top: 2rem;
     padding-right: 1rem;
-    font-size:small;
+    font-size: small;
     text-align: right;
-    
 }
 
-button{
+/* button style */
+button {
     height: 2.25rem;
     width: 3.5rem;
-    text-transform:uppercase;
-    font-size:x-small;
+    text-transform: uppercase;
+    font-size: x-small;
     background-color: transparent;
     border: 0.07rem solid black;
 }
 
-.radio{
+/* Radio button style */
+.radio {
     font-size: small;
 }
 
+/* Adjust radio button size */
 input[type="radio"] {
-    transform: scale(0.9); 
-    vertical-align: middle; 
+    transform: scale(0.9);
+    vertical-align: middle;
 }
