@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(122, 159, 147);
+    font-size: 1rem;
+}
+h1{
+    font-size: 3rem;
+}
+.one{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 5px solid black;
+}
+@media screen and (min-width: 650px ){
+    /* Style applied for minimum width of 650px and over */
+    body{
+        background-color: rgb(189, 179, 166);
+    }
+    h1{
+        font-size: 1rem;
+    }
+    .one{
+        background-color: blue;
+        border-radius: 1rem;
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 800px) {
+    h1{
+        font-size: 4rem;
+    }
+    .one{
+        display: none;
+    }
+    
+}
+@media screen and (min-width: 900px){
+    body{
+        font-size: 1.25rem;
+        background-color: rgb(98, 63, 80);
+        h1{font-size: 1rem;}
+    }
+    
+}
+@media print{
+    img{
+        display: none;
+    }
+    a::after{
+        content: " <" attr(href) ">";
+    }
+}
+
+

@@ -1,0 +1,51 @@
+header, nav, main, footer{
+    padding: 1rem;
+}
+
+header{
+    background-color: brown;
+    color: white;
+    grid-area: header;
+}
+
+nav{
+    background-color: #f3e8e8;
+    color: black;
+    grid-area: nav;
+}
+
+main{
+    background-color: rgb(240, 237, 237);
+    grid-area:main;
+}
+
+footer{
+    background-color:brown;
+    color: white;
+    grid-area: footer;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+
+    grid-template-areas: 
+    "header"
+    "nav"
+    "main"
+    "footer"
+    ;
+}
+
+@media screen and (min-width: 700px){
+    .container{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+        "header header header"
+        "nav main main"
+        "nav main main"
+        "footer footer footer"
+        ;
+    }
+    
+}
