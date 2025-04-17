@@ -7,205 +7,244 @@
     <link rel="stylesheet" href="./css/reset.css">
     <!-- Custom css -->
     <link rel="stylesheet" href="css/main.css">
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/7e8c9fceaa.js" crossorigin="anonymous"></script>
 <title>Final</title>
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-            <nav class="nav-container">
-                <!-- Navigation Bar -->
-                <ul class="navbar">
-                    <li>
-                        <a href="#home" class="navbarLink">
-                            <img src="./images/logo.png" alt="logo" id="logo">
-                            Home
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#about" class="navbarLink">
-                            About Us
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#services" class="navbarLink">
-                            Services
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#team" class="navbarLink">
-                            Team
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#contact" class="navbarLink">
-                            Contact
-                        </a>
-                    </li>
-                    <li>
-                        <div class="searchContainer">
-                            <input id="searchbar" type="text" placeholder="Search">
-                                <a href="#search" class="searchIcon">
-                                    <i id="button" class="fa-solid fa-magnifying-glass fa-2x" style="color: #735d0e;"></i>
-                                </a>
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+                <nav class="nav-container">
+                    <a href="#home" class="navbarLink" id="logo-link">
+                        <img src="./images/logo.png" alt="logo" id="logo">
+                    </a>
+                    
+                    <!-- Navigation Bar -->
+                    <ul class="navbar">
+                        <li><a href="#home" class="navbarLink">
+                            Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="navbarLink">
+                                About Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#services" class="navbarLink">
+                                Services
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#team" class="navbarLink">
+                                Team
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="navbarLink">
+                                Contact
+                            </a>
+                        </li>
+                        <li>
+                            <div class="searchContainer">
+                                <input id="searchbar" type="text" placeholder="Search">
+                                    <a href="#search" class="searchIcon">
+                                        <i id="button" class="fa-solid fa-magnifying-glass fa-2x" style="color: #735d0e;"></i>
+                                    </a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Welcome Section -->
+            <div class="welcome">
+                <div class="welcomeContent">
+                    <h1>Welcome to Three Star Media</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias illum maiores explicabo tempore vero tenetur laborum sunt nam quod. Illo debitis quaerat atque ad aliquid eligendi sit odit ducimus quis!</p>
+                    <a class="connect">Connect with us<i class="fa-sharp fa-solid fa-play"></i></a>
+                </div>
+            </div>
+
+            <!-- About Us Section -->
+            <section class="about-us">
+                <div class="about-usContent">
+                    <div class="about-usImage">
+                        <img class="aboutImage" rel="picture" alt="pictureForAboutUs" src="./images/about-us.jpg">
+                    </div>
+                    <div class="about-usText">
+                        <h2>About Us</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque natus vel in error, repellendus accusantium illo, a cum quasi laudantium voluptate aliquid. Est libero maiores, eligendi quod expedita sapiente reiciendis.</p>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam magnam dicta, fugit harum tempora possimus libero esse illo animi ut? Ex ducimus, similique tenetur consectetur quos eveniet doloremque sint accusamus!</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Service Section -->
+            <section class="OurService">
+                <div class="OurServiceContent">
+                    <h2>Our Services</h2>
+                    <div class="cards">
+                        <div class="serviceCard">
+                            <img id="images" rel="picture" alt="Digital Transformation Service" src="./images/digital.jpg">
+                            <div class="h3Content">
+                                <h3>Digital Transformation</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque repellendus qui quibusdam quis odio inventore reprehenderit animi beatae saepe minus assumenda esse nulla a, ipsam, possimus obcaecati numquam tempore dignissimos?</p>
+                                <a id="digitalPlans">Digital Plans <i class="fa-sharp fa-solid fa-play"></i></a>
+                            </div>
                         </div>
-                    </li>
-                    <script src="https://kit.fontawesome.com/7e8c9fceaa.js" crossorigin="anonymous"></script>
-                </ul>
-            </nav>
-    </header>
 
-    <!-- Main Content -->
-    <main>
-        <!-- Welcome Section -->
-        <div class="welcome">
-            <div class="welcomeContent">
-                <h1>Welcome to Three Star Media</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias illum maiores explicabo tempore vero tenetur laborum sunt nam quod. Illo debitis quaerat atque ad aliquid eligendi sit odit ducimus quis!</p>
-                <a class="connect">Connect with us<i class="fa-sharp fa-solid fa-play"></i></a>
-            </div>
-        </div>
-        <!-- About Us Section -->
-        <div class="about-us">
-            <div class="about-usContent">
-                <img id="aboutUs" rel="picture" alt="pictureForAboutUs" src="./images/about-us.jpg">
-                <h2>About Us</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque natus vel in error, repellendus accusantium illo, a cum quasi laudantium voluptate aliquid. Est libero maiores, eligendi quod expedita sapiente reiciendis.</p>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam magnam dicta, fugit harum tempora possimus libero esse illo animi ut? Ex ducimus, similique tenetur consectetur quos eveniet doloremque sint accusamus!</p>
-            </div>
-        </div>
+                        <div class="serviceCard">
+                            <img id="images" rel="picture" alt="Marketing Service" src="./images/marketing.jpg">
+                            <div class="h3Content">
+                                <h3>Marketing</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa natus repellendus aperiam ratione deleniti consectetur illum voluptatibus doloremque impedit autem eaque quisquam, explicabo voluptates blanditiis dolorum minima. Natus, deserunt nam.</p>
+                                <a class="marketingPlans">Marketing Plans <i class="fa-sharp fa-solid fa-play"></i></a>
+                            </div>
+                        </div>
 
-        <!-- Service Section -->
-        <div class="OurService">
-            <div class="OurServiceContent">
-                <h2>Our Services</h2>
-                <img id="digital" rel="picture" alt="Digital Transformation Service" src="./images/digital.jpg">
-                <div class="h3Content">
-                    <h3>Digital Transformation</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque repellendus qui quibusdam quis odio inventore reprehenderit animi beatae saepe minus assumenda esse nulla a, ipsam, possimus obcaecati numquam tempore dignissimos?</p>
-                    <a id="digitalPlans">Digital Plans <i class="fa-sharp fa-solid fa-play"></i></a>
-                </div>
-
-                <img id="marketing" rel="picture" alt="Marketing Service" src="./images/marketing.jpg">
-                <div class="h3Content">
-                    <h3>Marketing</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa natus repellendus aperiam ratione deleniti consectetur illum voluptatibus doloremque impedit autem eaque quisquam, explicabo voluptates blanditiis dolorum minima. Natus, deserunt nam.</p>
-                    <a class="marketingPlans">Marketing Plans <i class="fa-sharp fa-solid fa-play"></i></a>
-                </div>
-
-                <img id="video" rel="picture" alt="Video Production Service" src="./images/video.jpg">
-                <div class="h3Content">
-                    <h3>Video Production</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa natus repellendus aperiam ratione deleniti consectetur illum voluptatibus doloremque impedit autem eaque quisquam, explicabo voluptates blanditiis dolorum minima. Natus, deserunt nam.</p>
-                    <a class="video">Video Plans <i class="fa-sharp fa-solid fa-play"></i></a>
-                </div>
-
-                <img id="web" rel="picture" alt="Web Development Service" src="./images/web.jpg">
-                <div class="h3Content">
-                    <h3>Web Development</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa natus repellendus aperiam ratione deleniti consectetur illum voluptatibus doloremque impedit autem eaque quisquam, explicabo voluptates blanditiis dolorum minima. Natus, deserunt nam.</p>
-                    <a class="web">Web Plans <i class="fa-sharp fa-solid fa-play"></i></a>
-                </div>
-                
-                <img id="print" rel="picture" alt="Print Service" src="./images/print.jpg">
-                <div class="h3Content">
-                    <h3>Print</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa natus repellendus aperiam ratione deleniti consectetur illum voluptatibus doloremque impedit autem eaque quisquam, explicabo voluptates blanditiis dolorum minima. Natus, deserunt nam.</p>
-                    <a class="print">Print Plans <i class="fa-sharp fa-solid fa-play"></i></a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Vision Section -->
-        <div class="OurVision">
-            <div class="OurVisionContent">
-                <h3>Our Vision</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur illo excepturi impedit fugiat accusantium numquam sint consequatur corporis, voluptate iusto totam dolorem laborum animi nemo. Id rem voluptatibus blanditiis adipisci.</p>
-                <a class="learnmore">Learn More <i class="fa-sharp fa-solid fa-play"></i></a>
-            </div>
-        </div>
-
-        <!-- Team Information -->
-        <div class="OurTeam">
-            <div class="OurTeamContent">
-                <h3>Our Team</h3>
-                <img id="John" rel="picture" src="./images/john.jpg" alt="picture of John">
-                <div class="h3Content">
-                    <h4>John Doe</h4>
-                    <h5>CEO and Co-owner</h5> <div class="hline"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur illo excepturi impedit fugiat accusantium numquam sint consequatur corporis, voluptate iusto totam dolorem laborum animi nemo. Id rem voluptatibus blanditiis adipisci.</p>
-                </div>
-
-                <img id="Bob" rel="picture" src="./images/bob.jpg" alt="picture of Bob">
-                <div class="h3Content">
-                    <h4>Bob Rite</h4>
-                    <h5>CFO and Co-owner</h5> <div class="hline"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur illo excepturi impedit fugiat accusantium numquam sint consequatur corporis, voluptate iusto totam dolorem laborum animi nemo. Id rem voluptatibus blanditiis adipisci.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Contact Information -->
-        <div class="contactUs">
-            <div class="contactUsContent">
-                <h3>Contact Us</h3>
-                <div class="form">
-                    <h4>Send us a message</h4>
-
-                    <!-- Forms -->
-                    <form class="form-group" action="contact.html" method="post">
-                        <label for="fullname">Full Name</label>
-                        <input id="fullname" type="text">
+                        <div class="serviceCard">
+                            <img id="images" rel="picture" alt="Video Production Service" src="./images/video.jpg">
+                            <div class="h3Content">
+                                <h3>Video Production</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa natus repellendus aperiam ratione deleniti consectetur illum voluptatibus doloremque impedit autem eaque quisquam, explicabo voluptates blanditiis dolorum minima. Natus, deserunt nam.</p>
+                                <a class="video">Video Plans <i class="fa-sharp fa-solid fa-play"></i></a>
+                            </div>
+                        </div>
                         
-                        <label for="email">Email</label>
-                        <input id="email" type="email">
-                        
-                        <label for="message">Message</label>
-                        <textarea id="message"></textarea>
-                    </form>
-                    <!-- Submit Button -->
-                    <a class="send">Send</a>
+                        <div class="serviceCard">
+                            <img id="images" rel="picture" alt="Web Development Service" src="./images/web.jpg">
+                            <div class="h3Content">
+                                <h3>Web Development</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa natus repellendus aperiam ratione deleniti consectetur illum voluptatibus doloremque impedit autem eaque quisquam, explicabo voluptates blanditiis dolorum minima. Natus, deserunt nam.</p>
+                                <a class="web">Web Plans <i class="fa-sharp fa-solid fa-play"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="serviceCard">
+                            <img id="images" rel="picture" alt="Print Service" src="./images/print.jpg">
+                            <div class="h3Content">
+                                <h3>Print</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa natus repellendus aperiam ratione deleniti consectetur illum voluptatibus doloremque impedit autem eaque quisquam, explicabo voluptates blanditiis dolorum minima. Natus, deserunt nam.</p>
+                                <a class="print">Print Plans <i class="fa-sharp fa-solid fa-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <!-- Store Hours -->
-                <div class="Hours">
-                    <h4>Hours of operation</h4>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Days</th>
-                                <th>Hours</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Monday - Friday</td>
-                                <td>9 AM - 6 PM</td>
-                            </tr>
-                            <tr>
-                                <td>Saturday - Sunday</td>
-                                <td>Closed</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                <!-- Location -->
-                <div class="location">
-                    <h4>Location</h4>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5608.071946022124!2d-75.75637419999998!3d45.34808609999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cd0d3b99%3A0xe72045c85b5a0ce6!2sAlgonquin%20College%20%2F%20Adjidj%C3%A0k!5e0!3m2!1sen!2sca!4v1743384745539!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- Vision Section -->
+            <div class="OurVision">
+                <div class="OurVisionContent">
+                    <h3>Our Vision</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur illo excepturi impedit fugiat accusantium numquam sint consequatur corporis, voluptate iusto totam dolorem laborum animi nemo. Id rem voluptatibus blanditiis adipisci.</p>
+                    <a class="learnmore">Learn More <i class="fa-sharp fa-solid fa-play"></i></a>
                 </div>
             </div>
-        </div>
-    </main>
 
-    <!-- Footer Section -->
-    <footer>
-        <p> &copy;Copyright Three Star Media, 2020</p>
-        <p>All images are taken from <a href="https://unsplash.com" target="_blank">Unplash</a></p>
-    </footer>
+            <!-- Team Information -->
+            <section class="OurTeam">
+                <div class="OurTeamContent">
+                    <h2>Our Team</h2>
+
+                    <div class="teamCard1">
+                        <div class="teamCard-img">
+                            <img id="images" rel="picture" src="./images/john.jpg" alt="picture of John">
+                        </div>
+
+                        <div class="teamCard-content">
+                            <div class="h3Content">
+                                <h3>John Doe</h4>
+                                <h5>CEO and Co-owner</h5> <div class="hline"></div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur illo excepturi impedit fugiat accusantium numquam sint consequatur corporis, voluptate iusto totam dolorem laborum animi nemo. Id rem voluptatibus blanditiis adipisci.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="teamCard2">
+                        <div class="teamCard-img">
+                            <img id="images" rel="picture" src="./images/bob.jpg" alt="picture of Bob">
+                        </div>
+
+                        <div class="teamCard-content">
+                            <div class="h3Content">
+                                <h3>Bob Rite</h4>
+                                <h5>CFO and Co-owner</h5> <div class="hline"></div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur illo excepturi impedit fugiat accusantium numquam sint consequatur corporis, voluptate iusto totam dolorem laborum animi nemo. Id rem voluptatibus blanditiis adipisci.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Information -->
+            <section class="contactUs">
+                <div class="contactUsContent">
+                    <h2>Contact Us</h2>
+                    <div class="contactUsFlex">
+                        <div class="form">
+                            <h4>Send us a message</h4>
+
+                            <!-- Forms -->
+                            <form class="form-group" action="contact.html" method="post">
+                                <label for="fullname">Full Name</label>
+                                <input id="fullname" type="text">
+                                
+                                <label for="email">Email</label>
+                                <input id="email" type="email">
+                                
+                                <label for="message">Message</label>
+                                <textarea id="message"></textarea>
+                            </form>
+
+                            <!-- Submit Button -->
+                            <a class="send">Send</a>
+                        </div>
+
+                        <!-- Store Hours -->
+                        <div class="Hours">
+                            <h4>Hours of operation</h4>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Days</th>
+                                        <th>Hours</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Monday - Friday</td>
+                                        <td>9 AM - 6 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Saturday - Sunday</td>
+                                        <td>Closed</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <!-- Location -->
+                        <div class="location">
+                            <h4>Location</h4>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5608.071946022124!2d-75.75637419999998!3d45.34808609999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cd0d3b99%3A0xe72045c85b5a0ce6!2sAlgonquin%20College%20%2F%20Adjidj%C3%A0k!5e0!3m2!1sen!2sca!4v1743384745539!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer Section -->
+        <footer>
+            <p> &copy;Copyright Three Star Media, 2020</p>
+            <p>All images are taken from <a href="https://unsplash.com" target="_blank">Unplash</a></p>
+        </footer>
+    </div>
 </body>
 </html>
